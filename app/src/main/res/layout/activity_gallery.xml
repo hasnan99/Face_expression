@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gallery_activity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/pilih_gambar"
+        android:text="Pilih Gambar"
+        android:textAllCaps="false"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/gambar_v"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
