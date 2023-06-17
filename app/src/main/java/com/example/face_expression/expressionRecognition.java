@@ -1,11 +1,12 @@
-package com.example.imagepro;
+package com.example.face_expression;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.util.Log;
-import android.widget.ImageView;
+
+import com.example.face_expression.R;
 
 import org.opencv.android.Utils;
 import org.opencv.core.Core;
@@ -173,7 +174,7 @@ public class expressionRecognition {
 
             Imgproc.putText(mat_image, ekspresi,
                     new Point((int) facearray[i].tl().x + 5, (int) facearray[i].tl().y + 50),
-                    2,2,new Scalar(255,0,0,255),2);
+                    2,2,new Scalar(255,255,255),2);
         }
 
         return mat_image;

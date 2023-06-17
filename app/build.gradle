@@ -6,7 +6,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.example.imagepro"
+        applicationId "com.example.face_expression"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
@@ -26,7 +26,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    namespace 'com.example.imagepro'
+    namespace 'com.example.face_expression'
     androidResources {
         noCompress 'tflite'
     }
